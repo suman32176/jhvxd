@@ -65,9 +65,9 @@ CREATE TEMPLATE CREATE SOCIAL_APP FOLDER AND ADD INDEX.HTML
 
 
 ______________________________________________________________
-#STEP4:
+#STEP4: 
 
-#ADD PATH IN URLS.PY in settings
+#ADD PATH IN URLS.PY in settings(project )
 
 from django.contrib import admin
 
