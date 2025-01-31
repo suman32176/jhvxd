@@ -1,12 +1,12 @@
 # YOUTUBE-ARKPROCODER-DJANGO
  LOGIN THROUGH GOOGLE ACCOUNTS
-*STEP1:
+#STEP1:
 
 INSTALL ALLAUTH
 
 *pip install django-allauth
 -------------------------------------------------------------------
-STEP2:
+#STEP2:
 
  OPEN SETTINGS.PY IN MYPROJECT FOLDER
 ___________________________________________
@@ -50,7 +50,7 @@ SOCIALACCOUNT_PROVIDERS = {
 }
 ______________________________________________________________________
 
-STEP3:
+#STEP3:
 
 CREATE TEMPLATE CREATE SOCIAL_APP FOLDER AND ADD INDEX.HTML
 
@@ -65,7 +65,7 @@ CREATE TEMPLATE CREATE SOCIAL_APP FOLDER AND ADD INDEX.HTML
 
 
 ______________________________________________________________
-STEP4:
+#STEP4:
 
 #ADD PATH IN URLS.PY in settings
 
@@ -79,7 +79,7 @@ urlpatterns = [
 
 _________________________________________________________________
 
-STEP5:
+#STEP5:
 
 #RUN MIGRATIONS
 
@@ -87,7 +87,7 @@ python manage.py makemigrations
 python manage.py migrate
 
 _________________________________________________________________
-STEP6:
+#STEP6:
 
 CREATE API CONSOLE WATCH VIDEO CAREFULLY
 
@@ -106,7 +106,7 @@ Authorized redirect URL -> http://127.0.0.1:8000/accounts/google/login/callback/
 6.Get the credentails
 
 ____________________________________________________________________
-STEP7:
+#STEP7:
 #Add social applications
 
 Provider: Google
@@ -118,7 +118,7 @@ Secret key:
 _____________________________________________________
 
 
-STEP8:
+#STEP8:
 #ADD SITEID ITS UNIQUE TO EACH CLIENTID
 
 #USING TERMINAL ENTER THIS CMD
