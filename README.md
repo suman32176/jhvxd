@@ -30,7 +30,13 @@ AUTHENTICATION_BACKENDS = (
  'django.contrib.auth.backends.ModelBackend',
  'allauth.account.auth_backends.AuthenticationBackend',
  )
-________________________________________________________________________
+_________
+
+Open your settings.py file and add the following line inside the MIDDLEWARE list:
+
+
+'allauth.account.middleware.AccountMiddleware',
+_______________________________________________________________
 
 SITE_ID = 1
 LOGIN_REDIRECT_URL = '/'
