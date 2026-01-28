@@ -139,6 +139,14 @@ sites.save()
 print(sites.id)
 
 
+from django.contrib.sites.models import Site
+
+site = Site.objects.get(id=1)
+site.domain = 'gamearena.agronepall.com'
+site.name = 'gamearena.agronepall.com'
+site.save()
+
+print(site.id)
 
 
 
